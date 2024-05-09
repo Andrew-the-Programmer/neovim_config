@@ -6,8 +6,8 @@ This is my neovim config.
 Package manager: lazy.
 
 Inspired by:
-[ThePrimeagen] (https://www.youtube.com/@ThePrimeagen),
-[typecraft] (https://www.youtube.com/@typecraft_dev),
+[ThePrimeagen](https://www.youtube.com/@ThePrimeagen/),
+[typecraft](https://www.youtube.com/@typecraft_dev/),
 and many others.
 
 Feel free to copy and use.
@@ -16,7 +16,7 @@ Thanks nerds 😁.
 
 ## Walkthrough
 
-My config is based on [typecraft's config](https://youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn&si=WUyWWtEgmL_k4q4E).
+My config is based on [typecraft's config](https://youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn&si=WUyWWtEgmL_k4q4E/).
 Some plugins were modified, some added.
 
 All plugins are loaded by lazy in lua/user/lazy_plugins.
