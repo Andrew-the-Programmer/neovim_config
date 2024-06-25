@@ -7,12 +7,12 @@ require("telescope").setup({
 })
 local builtin = require("telescope.builtin")
 
-vim.keymap.set('n', '<leader>pf', builtin.find_files, {})
-vim.keymap.set('n', '<C-g>', builtin.git_files, {})
-vim.keymap.set('n', '<leader>ps', function()
-    builtin.grep_string({ search = vim.fn.input("Grep >") });
-end)
-vim.keymap.set("n", "<leader>lg", builtin.live_grep, {})
-vim.keymap.set("n", "<leader>of", builtin.oldfiles, {})
+vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "find file" })
+vim.keymap.set("n", "<leader>gf", builtin.git_files, { desc = "find git file" })
+vim.keymap.set("n", "<leader>fs", function()
+    builtin.grep_string({ search = vim.fn.input("Grep >") })
+end, { desc = "grep string" })
+vim.keymap.set("n", "<leader>lg", builtin.live_grep, { desc = "live grep" })
+vim.keymap.set("n", "<leader>of", builtin.oldfiles, { desc = "find recent file" })
 
 require("telescope").load_extension("ui-select")
