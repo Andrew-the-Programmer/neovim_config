@@ -10,7 +10,7 @@ require("nvim-treesitter.configs").setup({
         "rust",
         "jsdoc",
         "bash",
-        -- "latex",
+        "latex",
     },
 
     sync_install = false,

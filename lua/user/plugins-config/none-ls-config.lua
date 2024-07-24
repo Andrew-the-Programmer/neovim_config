@@ -27,8 +27,7 @@ null_ls.setup({
         -- js
         null_ls.builtins.diagnostics.eslint_d,
         null_ls.builtins.formatting.prettier,
-
     },
 })
 
-vim.keymap.set("n", "<leader>bf", vim.lsp.buf.format, {desc="format buffer"} )
+vim.keymap.set("n", "<leader>bf", vim.lsp.buf.format, { desc = "format buffer" })
