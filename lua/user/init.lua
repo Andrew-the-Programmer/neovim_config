@@ -1,3 +1,4 @@
+require("user.vim-config.functions")
 require("user.vim-config.options")
 require("user.vim-config.keymaps")
 require("user.lazy_plugins_init")
