@@ -20,8 +20,9 @@ return {
             },
         }
 
-        vim.g.conceallevel = 2
-        vim.g.tex_conceal = "abdgm"
-        vim.g.vimtex_syntax_conceal = "abdgm"
+        -- vim.g.conceallevel = 2
+        -- vim.g.vimtex_syntax_conceal = "abdgm"
+        -- vim.g.tex_conceal = "abdgm"
+        -- vim.g.vimtex_syntax_enabled = 1
     end,
 }
